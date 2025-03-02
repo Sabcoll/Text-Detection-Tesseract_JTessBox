@@ -1,0 +1,1143 @@
+** Make Box File **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/tesseract, eng.exocet.exp0.tif, eng.exocet.exp0, -l, eng, batch.nochop, makebox]
+
+** Run Tesseract for Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/tesseract, eng.exocet.exp0.tif, eng.exocet.exp0, box.train]
+APPLY_BOXES:
+   Boxes read from boxfile:     375
+   Found 375 good blobs.
+Generated training data for 12 words
+
+** Compute Character Set **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/unicharset_extractor, eng.exocet.exp0.box]
+Extracting unicharset from box file eng.exocet.exp0.box
+Other case a of A is not in unicharset
+Other case b of B is not in unicharset
+Other case c of C is not in unicharset
+Other case d of D is not in unicharset
+Other case e of E is not in unicharset
+Other case f of F is not in unicharset
+Other case g of G is not in unicharset
+Other case h of H is not in unicharset
+Other case i of I is not in unicharset
+Other case j of J is not in unicharset
+Other case w of W is not in unicharset
+Other case x of X is not in unicharset
+Other case y of Y is not in unicharset
+Other case z of Z is not in unicharset
+Wrote unicharset file unicharset
+
+** Set Character Set Properties **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=F:\OneDrive\GitHub\Text, Detection, Tesseract_JTessBox\Tesseract\Training]
+Loaded unicharset of size 62 from file unicharset
+Setting unichar properties
+Other case a of A is not in unicharset
+Other case b of B is not in unicharset
+Other case c of C is not in unicharset
+Other case d of D is not in unicharset
+Other case e of E is not in unicharset
+Other case f of F is not in unicharset
+Other case g of G is not in unicharset
+Other case h of H is not in unicharset
+Other case i of I is not in unicharset
+Other case j of J is not in unicharset
+Other case w of W is not in unicharset
+Other case x of X is not in unicharset
+Other case y of Y is not in unicharset
+Other case z of Z is not in unicharset
+Setting script properties
+Failed to load script unicharset from:F:\OneDrive\GitHub\Text/Latin.unicharset
+Warning: properties incomplete for index 3 = A
+Warning: properties incomplete for index 4 = B
+Warning: properties incomplete for index 5 = C
+Warning: properties incomplete for index 6 = D
+Warning: properties incomplete for index 7 = E
+Warning: properties incomplete for index 8 = F
+Warning: properties incomplete for index 9 = G
+Warning: properties incomplete for index 10 = H
+Warning: properties incomplete for index 11 = I
+Warning: properties incomplete for index 12 = J
+Warning: properties incomplete for index 13 = K
+Warning: properties incomplete for index 14 = L
+Warning: properties incomplete for index 15 = M
+Warning: properties incomplete for index 16 = N
+Warning: properties incomplete for index 17 = O
+Warning: properties incomplete for index 18 = P
+Warning: properties incomplete for index 19 = Q
+Warning: properties incomplete for index 20 = R
+Warning: properties incomplete for index 21 = S
+Warning: properties incomplete for index 22 = T
+Warning: properties incomplete for index 23 = U
+Warning: properties incomplete for index 24 = V
+Warning: properties incomplete for index 25 = W
+Warning: properties incomplete for index 26 = X
+Warning: properties incomplete for index 27 = Y
+Warning: properties incomplete for index 28 = Z
+Warning: properties incomplete for index 29 = t
+Warning: properties incomplete for index 30 = 2
+Warning: properties incomplete for index 31 = 3
+Warning: properties incomplete for index 32 = 4
+Warning: properties incomplete for index 33 = 5
+Warning: properties incomplete for index 34 = 6
+Warning: properties incomplete for index 35 = 7
+Warning: properties incomplete for index 36 = 8
+Warning: properties incomplete for index 37 = 9
+Warning: properties incomplete for index 38 = .
+Warning: properties incomplete for index 39 = ,
+Warning: properties incomplete for index 40 = ;
+Warning: properties incomplete for index 41 = :
+Warning: properties incomplete for index 42 = !
+Warning: properties incomplete for index 43 = ?
+Warning: properties incomplete for index 44 = "
+Warning: properties incomplete for index 45 = '
+Warning: properties incomplete for index 46 = (
+Warning: properties incomplete for index 47 = )
+Warning: properties incomplete for index 48 = +
+Warning: properties incomplete for index 49 = -
+Warning: properties incomplete for index 50 = =
+Warning: properties incomplete for index 51 = k
+Warning: properties incomplete for index 52 = l
+Warning: properties incomplete for index 53 = m
+Warning: properties incomplete for index 54 = n
+Warning: properties incomplete for index 55 = o
+Warning: properties incomplete for index 56 = p
+Warning: properties incomplete for index 57 = q
+Warning: properties incomplete for index 58 = r
+Warning: properties incomplete for index 59 = s
+Warning: properties incomplete for index 60 = u
+Warning: properties incomplete for index 61 = v
+Writing unicharset to file unicharset
+
+** Shape Clustering **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/shapeclustering, -F, eng.font_properties, -U, unicharset, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Building master shape table
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58
+Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.007353: Distance = 0.011905: Distance = 0.013889: Stopped with 11 merged, min dist 0.126050
+Master shape_table:Number of shapes = 48 max unichars = 2 number with multiple unichars = 11
+
+** MF Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/mftraining, -F, eng.font_properties, -U, unicharset, -O, eng.unicharset, eng.exocet.exp0.tr]
+Done!
+Read shape table shapetable of 48 shapes
+Reading eng.exocet.exp0.tr ...
+Warning: no protos/configs for sh0045 in CreateIntTemplates()
+Warning: no protos/configs for sh0046 in CreateIntTemplates()
+Warning: no protos/configs for sh0047 in CreateIntTemplates()
+
+** CN Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/cntraining, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Clustering ...
+
+Writing normproto ...
+
+Successful rename of inttemp
+Successful rename of pffmtable
+Successful rename of normproto
+Successful rename of shapetable
+** Dictionary Data **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.frequent_words_list, eng.freq-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.frequent_words_list'
+Reducing Trie to SquishedDawg
+Dawg is empty, skip producing the output file
+
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.words_list, eng.word-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.words_list'
+Reducing Trie to SquishedDawg
+Dawg is empty, skip producing the output file
+
+** Combine Data Files **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/combine_tessdata, eng.]
+Combining tessdata files
+Output eng.traineddata created successfully.
+Version:v5.4.0.20240606
+1:unicharset:size=3445, offset=192
+3:inttemp:size=335798, offset=3637
+4:pffmtable:size=431, offset=339435
+5:normproto:size=7262, offset=339866
+7:word-dawg:size=6874, offset=347128
+13:shapetable:size=1000, offset=354002
+23:version:size=15, offset=355002
+
+** Moving generated traineddata file to tessdata folder **
+** Training Completed **
+** Dictionary Data **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.frequent_words_list, eng.freq-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.frequent_words_list'
+Reducing Trie to SquishedDawg
+Dawg is empty, skip producing the output file
+
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.words_list, eng.word-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.word-dawg'
+
+** Combine Data Files **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/combine_tessdata, eng.]
+Combining tessdata files
+Output eng.traineddata created successfully.
+Version:v5.4.0.20240606
+1:unicharset:size=3445, offset=192
+3:inttemp:size=335798, offset=3637
+4:pffmtable:size=431, offset=339435
+5:normproto:size=7262, offset=339866
+7:word-dawg:size=146, offset=347128
+13:shapetable:size=1000, offset=347274
+23:version:size=15, offset=348274
+
+** Moving generated traineddata file to tessdata folder **
+** Training Completed **
+** Dictionary Data **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.frequent_words_list, eng.freq-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.frequent_words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.freq-dawg'
+
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.words_list, eng.word-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.word-dawg'
+
+** Combine Data Files **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/combine_tessdata, eng.]
+Combining tessdata files
+Output eng.traineddata created successfully.
+Version:v5.4.0.20240606
+1:unicharset:size=3445, offset=192
+3:inttemp:size=335798, offset=3637
+4:pffmtable:size=431, offset=339435
+5:normproto:size=7262, offset=339866
+7:word-dawg:size=146, offset=347128
+9:freq-dawg:size=290, offset=347274
+13:shapetable:size=1000, offset=347564
+23:version:size=15, offset=348564
+
+** Moving generated traineddata file to tessdata folder **
+** Training Completed **
+** Make Box File **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/tesseract, eng.exocet.exp0.tif, eng.exocet.exp0, -l, eng, batch.nochop, makebox]
+
+** Run Tesseract for Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/tesseract, eng.exocet.exp0.tif, eng.exocet.exp0, box.train]
+APPLY_BOXES:
+   Boxes read from boxfile:     375
+   Found 375 good blobs.
+Generated training data for 12 words
+
+** Compute Character Set **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/unicharset_extractor, eng.exocet.exp0.box]
+Extracting unicharset from box file eng.exocet.exp0.box
+Other case a of A is not in unicharset
+Other case b of B is not in unicharset
+Other case c of C is not in unicharset
+Other case d of D is not in unicharset
+Other case e of E is not in unicharset
+Other case f of F is not in unicharset
+Other case g of G is not in unicharset
+Other case h of H is not in unicharset
+Other case i of I is not in unicharset
+Other case j of J is not in unicharset
+Other case w of W is not in unicharset
+Other case x of X is not in unicharset
+Other case y of Y is not in unicharset
+Other case z of Z is not in unicharset
+Wrote unicharset file unicharset
+
+** Set Character Set Properties **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=F:\OneDrive\GitHub\Text, Detection, Tesseract_JTessBox\Tesseract\Training]
+Loaded unicharset of size 62 from file unicharset
+Setting unichar properties
+Other case a of A is not in unicharset
+Other case b of B is not in unicharset
+Other case c of C is not in unicharset
+Other case d of D is not in unicharset
+Other case e of E is not in unicharset
+Other case f of F is not in unicharset
+Other case g of G is not in unicharset
+Other case h of H is not in unicharset
+Other case i of I is not in unicharset
+Other case j of J is not in unicharset
+Other case w of W is not in unicharset
+Other case x of X is not in unicharset
+Other case y of Y is not in unicharset
+Other case z of Z is not in unicharset
+Setting script properties
+Failed to load script unicharset from:F:\OneDrive\GitHub\Text/Latin.unicharset
+Warning: properties incomplete for index 3 = A
+Warning: properties incomplete for index 4 = B
+Warning: properties incomplete for index 5 = C
+Warning: properties incomplete for index 6 = D
+Warning: properties incomplete for index 7 = E
+Warning: properties incomplete for index 8 = F
+Warning: properties incomplete for index 9 = G
+Warning: properties incomplete for index 10 = H
+Warning: properties incomplete for index 11 = I
+Warning: properties incomplete for index 12 = J
+Warning: properties incomplete for index 13 = K
+Warning: properties incomplete for index 14 = L
+Warning: properties incomplete for index 15 = M
+Warning: properties incomplete for index 16 = N
+Warning: properties incomplete for index 17 = O
+Warning: properties incomplete for index 18 = P
+Warning: properties incomplete for index 19 = Q
+Warning: properties incomplete for index 20 = R
+Warning: properties incomplete for index 21 = S
+Warning: properties incomplete for index 22 = T
+Warning: properties incomplete for index 23 = U
+Warning: properties incomplete for index 24 = V
+Warning: properties incomplete for index 25 = W
+Warning: properties incomplete for index 26 = X
+Warning: properties incomplete for index 27 = Y
+Warning: properties incomplete for index 28 = Z
+Warning: properties incomplete for index 29 = t
+Warning: properties incomplete for index 30 = 2
+Warning: properties incomplete for index 31 = 3
+Warning: properties incomplete for index 32 = 4
+Warning: properties incomplete for index 33 = 5
+Warning: properties incomplete for index 34 = 6
+Warning: properties incomplete for index 35 = 7
+Warning: properties incomplete for index 36 = 8
+Warning: properties incomplete for index 37 = 9
+Warning: properties incomplete for index 38 = .
+Warning: properties incomplete for index 39 = ,
+Warning: properties incomplete for index 40 = ;
+Warning: properties incomplete for index 41 = :
+Warning: properties incomplete for index 42 = !
+Warning: properties incomplete for index 43 = ?
+Warning: properties incomplete for index 44 = "
+Warning: properties incomplete for index 45 = '
+Warning: properties incomplete for index 46 = (
+Warning: properties incomplete for index 47 = )
+Warning: properties incomplete for index 48 = +
+Warning: properties incomplete for index 49 = -
+Warning: properties incomplete for index 50 = =
+Warning: properties incomplete for index 51 = k
+Warning: properties incomplete for index 52 = l
+Warning: properties incomplete for index 53 = m
+Warning: properties incomplete for index 54 = n
+Warning: properties incomplete for index 55 = o
+Warning: properties incomplete for index 56 = p
+Warning: properties incomplete for index 57 = q
+Warning: properties incomplete for index 58 = r
+Warning: properties incomplete for index 59 = s
+Warning: properties incomplete for index 60 = u
+Warning: properties incomplete for index 61 = v
+Writing unicharset to file unicharset
+
+** Shape Clustering **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/shapeclustering, -F, eng.font_properties, -U, unicharset, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Building master shape table
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58
+Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.007353: Distance = 0.011905: Distance = 0.013889: Stopped with 11 merged, min dist 0.126050
+Master shape_table:Number of shapes = 48 max unichars = 2 number with multiple unichars = 11
+
+** MF Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/mftraining, -F, eng.font_properties, -U, unicharset, -O, eng.unicharset, eng.exocet.exp0.tr]
+Done!
+Read shape table shapetable of 48 shapes
+Reading eng.exocet.exp0.tr ...
+Warning: no protos/configs for sh0045 in CreateIntTemplates()
+Warning: no protos/configs for sh0046 in CreateIntTemplates()
+Warning: no protos/configs for sh0047 in CreateIntTemplates()
+
+** CN Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/cntraining, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Clustering ...
+
+Writing normproto ...
+
+Successful rename of inttemp
+Successful rename of pffmtable
+Successful rename of normproto
+Successful rename of shapetable
+** Dictionary Data **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.frequent_words_list, eng.freq-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.frequent_words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.freq-dawg'
+
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.words_list, eng.word-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.word-dawg'
+
+** Combine Data Files **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/combine_tessdata, eng.]
+Combining tessdata files
+Output eng.traineddata created successfully.
+Version:v5.4.0.20240606
+1:unicharset:size=3445, offset=192
+3:inttemp:size=335798, offset=3637
+4:pffmtable:size=431, offset=339435
+5:normproto:size=7262, offset=339866
+7:word-dawg:size=146, offset=347128
+9:freq-dawg:size=290, offset=347274
+13:shapetable:size=1000, offset=347564
+23:version:size=15, offset=348564
+
+** Moving generated traineddata file to tessdata folder **
+** Training Completed **
+** Shape Clustering **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/shapeclustering, -F, eng.font_properties, -U, unicharset, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Building master shape table
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58
+Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.007353: Distance = 0.011905: Distance = 0.013889: Stopped with 11 merged, min dist 0.126050
+Master shape_table:Number of shapes = 48 max unichars = 2 number with multiple unichars = 11
+
+** MF Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/mftraining, -F, eng.font_properties, -U, unicharset, -O, eng.unicharset, eng.exocet.exp0.tr]
+Done!
+Read shape table shapetable of 48 shapes
+Reading eng.exocet.exp0.tr ...
+Warning: no protos/configs for sh0045 in CreateIntTemplates()
+Warning: no protos/configs for sh0046 in CreateIntTemplates()
+Warning: no protos/configs for sh0047 in CreateIntTemplates()
+
+** CN Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/cntraining, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Clustering ...
+
+Writing normproto ...
+
+Successful rename of inttemp
+Successful rename of pffmtable
+Successful rename of normproto
+Successful rename of shapetable
+** Dictionary Data **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.frequent_words_list, eng.freq-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.frequent_words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.freq-dawg'
+
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.words_list, eng.word-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.word-dawg'
+
+** Combine Data Files **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/combine_tessdata, eng.]
+Combining tessdata files
+Output eng.traineddata created successfully.
+Version:v5.4.0.20240606
+1:unicharset:size=3445, offset=192
+3:inttemp:size=335798, offset=3637
+4:pffmtable:size=431, offset=339435
+5:normproto:size=7262, offset=339866
+7:word-dawg:size=146, offset=347128
+9:freq-dawg:size=290, offset=347274
+13:shapetable:size=1000, offset=347564
+23:version:size=15, offset=348564
+
+** Moving generated traineddata file to tessdata folder **
+** Training Completed **
+** Run Tesseract for Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/tesseract, eng.exocet.exp0.tif, eng.exocet.exp0, box.train]
+APPLY_BOXES:
+   Boxes read from boxfile:     375
+   Found 375 good blobs.
+Generated training data for 15 words
+
+** Compute Character Set **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/unicharset_extractor, eng.exocet.exp0.box]
+Extracting unicharset from box file eng.exocet.exp0.box
+Wrote unicharset file unicharset
+
+** Set Character Set Properties **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/set_unicharset_properties, -U, unicharset, -O, unicharset, --script_dir=F:\OneDrive\GitHub\Text, Detection, Tesseract_JTessBox\Tesseract\Training]
+Loaded unicharset of size 78 from file unicharset
+Setting unichar properties
+Setting script properties
+Failed to load script unicharset from:F:\OneDrive\GitHub\Text/Latin.unicharset
+Warning: properties incomplete for index 3 = A
+Warning: properties incomplete for index 4 = B
+Warning: properties incomplete for index 5 = C
+Warning: properties incomplete for index 6 = D
+Warning: properties incomplete for index 7 = E
+Warning: properties incomplete for index 8 = F
+Warning: properties incomplete for index 9 = G
+Warning: properties incomplete for index 10 = H
+Warning: properties incomplete for index 11 = I
+Warning: properties incomplete for index 12 = J
+Warning: properties incomplete for index 13 = K
+Warning: properties incomplete for index 14 = L
+Warning: properties incomplete for index 15 = M
+Warning: properties incomplete for index 16 = N
+Warning: properties incomplete for index 17 = O
+Warning: properties incomplete for index 18 = P
+Warning: properties incomplete for index 19 = Q
+Warning: properties incomplete for index 20 = R
+Warning: properties incomplete for index 21 = S
+Warning: properties incomplete for index 22 = T
+Warning: properties incomplete for index 23 = U
+Warning: properties incomplete for index 24 = V
+Warning: properties incomplete for index 25 = W
+Warning: properties incomplete for index 26 = X
+Warning: properties incomplete for index 27 = Y
+Warning: properties incomplete for index 28 = Z
+Warning: properties incomplete for index 29 = a
+Warning: properties incomplete for index 30 = b
+Warning: properties incomplete for index 31 = c
+Warning: properties incomplete for index 32 = d
+Warning: properties incomplete for index 33 = e
+Warning: properties incomplete for index 34 = f
+Warning: properties incomplete for index 35 = g
+Warning: properties incomplete for index 36 = h
+Warning: properties incomplete for index 37 = i
+Warning: properties incomplete for index 38 = j
+Warning: properties incomplete for index 39 = k
+Warning: properties incomplete for index 40 = l
+Warning: properties incomplete for index 41 = m
+Warning: properties incomplete for index 42 = n
+Warning: properties incomplete for index 43 = o
+Warning: properties incomplete for index 44 = p
+Warning: properties incomplete for index 45 = q
+Warning: properties incomplete for index 46 = r
+Warning: properties incomplete for index 47 = s
+Warning: properties incomplete for index 48 = t
+Warning: properties incomplete for index 49 = u
+Warning: properties incomplete for index 50 = v
+Warning: properties incomplete for index 51 = w
+Warning: properties incomplete for index 52 = x
+Warning: properties incomplete for index 53 = y
+Warning: properties incomplete for index 54 = z
+Warning: properties incomplete for index 55 = 0
+Warning: properties incomplete for index 56 = 1
+Warning: properties incomplete for index 57 = 2
+Warning: properties incomplete for index 58 = 3
+Warning: properties incomplete for index 59 = 4
+Warning: properties incomplete for index 60 = 5
+Warning: properties incomplete for index 61 = 6
+Warning: properties incomplete for index 62 = 7
+Warning: properties incomplete for index 63 = 8
+Warning: properties incomplete for index 64 = 9
+Warning: properties incomplete for index 65 = .
+Warning: properties incomplete for index 66 = ,
+Warning: properties incomplete for index 67 = ;
+Warning: properties incomplete for index 68 = :
+Warning: properties incomplete for index 69 = !
+Warning: properties incomplete for index 70 = ?
+Warning: properties incomplete for index 71 = '
+Warning: properties incomplete for index 72 = "
+Warning: properties incomplete for index 73 = (
+Warning: properties incomplete for index 74 = )
+Warning: properties incomplete for index 75 = +
+Warning: properties incomplete for index 76 = -
+Warning: properties incomplete for index 77 = =
+Writing unicharset to file unicharset
+
+** Shape Clustering **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/shapeclustering, -F, eng.font_properties, -U, unicharset, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Building master shape table
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances...
+Stopped with 0 merged, min dist 999.000000
+Computing shape distances... 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74
+Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.000000: Distance = 0.006250: Distance = 0.007463: Distance = 0.008130: Distance = 0.008772: Distance = 0.010638: Stopped with 26 merged, min dist 0.168067
+Master shape_table:Number of shapes = 49 max unichars = 3 number with multiple unichars = 25
+
+** MF Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/mftraining, -F, eng.font_properties, -U, unicharset, -O, eng.unicharset, eng.exocet.exp0.tr]
+Done!
+Read shape table shapetable of 49 shapes
+Reading eng.exocet.exp0.tr ...
+Warning: no protos/configs for sh0046 in CreateIntTemplates()
+Warning: no protos/configs for sh0047 in CreateIntTemplates()
+Warning: no protos/configs for sh0048 in CreateIntTemplates()
+
+** CN Training **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/cntraining, eng.exocet.exp0.tr]
+Reading eng.exocet.exp0.tr ...
+Clustering ...
+
+Writing normproto ...
+
+Successful rename of inttemp
+Successful rename of pffmtable
+Successful rename of normproto
+Successful rename of shapetable
+** Dictionary Data **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.frequent_words_list, eng.freq-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.frequent_words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.freq-dawg'
+
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/wordlist2dawg, eng.words_list, eng.word-dawg, eng.unicharset]
+Loading unicharset from 'eng.unicharset'
+Reading word list from 'eng.words_list'
+Reducing Trie to SquishedDawg
+Writing squished DAWG to 'eng.word-dawg'
+
+** Combine Data Files **
+[F:\OneDrive\GitHub\Text Detection Tesseract_JTessBox\JTessBox\tesseract-ocr/combine_tessdata, eng.]
+Combining tessdata files
+Output eng.traineddata created successfully.
+Version:v5.4.0.20240606
+1:unicharset:size=4327, offset=192
+3:inttemp:size=338184, offset=4519
+4:pffmtable:size=513, offset=342703
+5:normproto:size=9182, offset=343216
+7:word-dawg:size=6658, offset=352398
+9:freq-dawg:size=346, offset=359056
+13:shapetable:size=1198, offset=359402
+23:version:size=15, offset=360600
+
+** Moving generated traineddata file to tessdata folder **
+** Training Completed **
